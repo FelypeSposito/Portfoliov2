@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container1{
+    height: 95vh;
+    display: grid;
+    grid-template-columns: 2.5% 35% 5% 50% 5% 2.5%;
+    grid-template-rows: 2.5% 25% 35% 35% 2.5%;
+}
+
+.card1{
+    grid-row-start: 2;
+    grid-row-end: 5;
+    grid-column: 2;
+}
+
+.card1img{
+    border-top-right-radius: 1.2rem;
+    border-bottom-left-radius: 1.2rem;
+    width: 100%;
+    height: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  transition: all ease-in-out 0.5s;
+    
+}
+  
+.card1img:hover{
+    background-color: #fdfdfd;
+    box-shadow: rgba(0, 0, 0, 0.09) 1px 2px 1px, rgba(0, 0, 0, 0.09) 4px 4px 2px,
+      rgba(0, 0, 0, 0.09) 8px 8px 4px, rgba(0, 0, 0, 0.09) 16px 16px 8px,
+      rgba(0, 0, 0, 0.09) 32px 32px 16px, rgba(0, 0, 0, 0.09) 64px 64px 32px;
+      transition: all ease-in-out 0.5s;
+
+}
+
+.titulocontainer1{
+    grid-row-start: 2;
+    grid-column-start: 4;
+    align-self: end;
+    justify-self: center;
+}
+
+.descricaoinicial{
+    
+    grid-row-start: 3;
+    grid-column-start: 4;
+    justify-self: center;
+    align-self: center;
+
+}
+
+.espaco{
+    height: 20vh;
+    align-content: center;
+    display: grid;
+    grid-template-columns: 2.5% 95% 2.5%;
+}
+
+.espaco hr {
+    grid-column-start: 2;
+}
+
+.container2{
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 2.5% 50% 5% 40% 2.5%;
+    grid-template-rows: 2.5% 10% 85% 2.5% ;
+}
+
+.titulocontainer2{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    align-self: center;
+    justify-self: center;
+}
+
+.conteudocontainer2{
+    grid-row-start: 3;
+    grid-column-start: 2;
+    align-self: center;
+    justify-self: center;
+}
+
+.imagemcontainer2{
+    grid-row-start: 3;
+    grid-column-start: 4;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  transition: all ease-in-out 0.5s;
+  border-top-right-radius: 17px;
+  border-bottom-left-radius: 17px;
+
+}
+
+.imagemcontainer2:hover{
+    background-color: #fdfdfd;
+    box-shadow: rgba(0, 0, 0, 0.09) -1px 2px 1px, rgba(0, 0, 0, 0.09) -4px 4px 2px,
+      rgba(0, 0, 0, 0.09) -8px 8px 4px, rgba(0, 0, 0, 0.09) -16px 16px 8px,
+      rgba(0, 0, 0, 0.09) -32px 32px 16px, rgba(0, 0, 0, 0.09) -64px 64px 32px;
+      transition: all ease-in-out 0.5s;
+      ;
+}
+
+.espaco2{
+    height: 10vh;
+}
+
+.container3{
+    background-image: url('../IMG/lampadahdhorizontal.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 90vh;
+}
+
+.espaco3{
+    height: 20vh;
+    align-content: center;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+.espaco3 hr {
+    grid-column-start: 2;
+}
+
+.container4{
+    display: grid;
+}
