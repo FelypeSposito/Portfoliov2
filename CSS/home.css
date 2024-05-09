@@ -10,7 +10,7 @@ color: #000000;}
     height: 8vh;
     background-color: rgb(238, 238, 238);
     display:grid;
-    grid-template-columns: 2.5% 10% 2.5% 10% 2.5% 10% 2.5% 10% 50%;
+    grid-template-columns: 2.5% 10% 0% 10% 0% 10% 0% 10% 57.5%;
     justify-items: center;
     align-items: center;
 }
@@ -308,18 +308,19 @@ color: #000000;}
     grid-column-start: 2;
 }
 
-.titulocontainer4{
-    grid-column-start: 4;
-    align-self: center;
-    justify-self: center;
-    letter-spacing: 3px
-}
-
 .container4{
     height: 100vh;
     display: grid;
     grid-template-columns: 2.5% 30% 2.5% 30% 2.5% 30% 2.5%;
     grid-template-rows: 15% 80% 5%;
+}
+
+
+.titulocontainer4{
+    grid-column-start: 4;
+    align-self: center;
+    justify-self: center;
+    letter-spacing: 3px
 }
 
 .cardc4-1 {
@@ -492,7 +493,7 @@ color: #000000;}
   .titulocontainer5{
     grid-row-start: 4;
     grid-column-start: 3;
-    align-self: flex-end;
+    align-self: center;
     justify-self: center;
     letter-spacing: 3px
   }
@@ -699,6 +700,237 @@ color: #000000;}
       opacity: 1;
     }
   }
+
+  /* Adicione essas regras de mídia ao seu arquivo CSS */
+
+/* Para telas menores que 768px (como smartphones) */
+@media (max-width: 768px) {
+  .header {
+    grid-template-columns: 25% 25% 25% 25% ;
+  }
+}
   
+  @media (max-width: 768px) {
+    .container1{
+      display: grid;
+      grid-template-columns: 2.5% 95% 2.5%;
+      grid-template-rows: 2.5% 5% 2.5% 20% 70%;
+      height: 120vh;
+    }
+  }
+    @media (max-width: 768px) {
+      .container1 .card1{
+        grid-row-start: 5;
+        grid-row-end: 5;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        height: 80%;
+      }
+    }
+      @media (max-width: 768px) {
+        .titulocontainer1{
+          grid-row-end: 2;
+          grid-column-start: 2; 
+          align-self: center;
+          justify-self: center;
+        }
+      }
+        @media (max-width: 768px) {
+        .descricaoinicial {
+          grid-row-start: 4;
+          grid-column-start: 2;
+          align-self: center;
+          justify-self: center;
+        }
+      }
+        @media (max-width: 768px) {
+          .container2{
+            grid-template-rows: 2.5% 20% 75% 2.5%;
+            grid-template-columns: 2.5% 95% 2.5%;
+            height: 100vh;
+          }
+        }
+
+        @media (max-width: 768px) {
+          .titulocontainer2{
+            align-self: start;
+          }
+
+          @media (max-width: 768px) {
+            .container3{
+              background-image: none;
+              height: 0vh;
+            }
+
+        @media (max-width: 768px) {
+          .conteudocontainer2{
+            grid-row-start: 3;
+          }
+        }
+
+        @media (max-width: 768px) {
+          .espaco3{
+            height: 0;
+            width: 0;
+          }
+
+          @media (max-width: 768px) {
+            .divisoria1{
+              width: 0vw;
+            }
+
+            @media (max-width: 768px) {
+              .header a{
+                font-size: 10px;
+              }
+
+              .header span {
+                padding: 0;
+              }
+
+              @media (max-width: 768px) {
+                .header .cta1 {
+                  grid-column-start: 1;
+                }
+
+                @media (max-width: 768px) {
+                  .header .cta2 {
+                    grid-column-start: 2
+                  }
+
+                  @media (max-width: 768px) {
+                    .header .cta3 {
+                      grid-column-start: 3
+                    }
+
+                    @media (max-width: 768px) {
+                      .header .cta4 {
+                        grid-column-start: 4
+                      }
+
+                @media (max-width: 768px) {
+                  .header span .titulocontainer-2{grid-column-start: 2
+                  }
+
+                  @media (max-width: 768px) {
+                    .container4{
+                      grid-template-rows: 5% 25% 5% 25% 5% 25% 10%;
+                      grid-template-columns: 2.5% 95% 2.5%;
+                      height: 125vh;
+                    }
+                    @media (max-width: 768px) {
+                      .titulocontainer4{
+                        grid-column-start: 2;
+                        grid-row-start: 1
+                      }
+
+                    @media (max-width: 768px) {
+                      .card4-1{
+                        grid-column-start: 2;
+                        grid-row-start: 2;
+                      }
+
+                      @media (max-width: 768px) {
+                        .cardc4-1-image{
+                          background-image: url('../IMG/printprevola.png');
+                          background-repeat: no-repeat;
+                          background-size: cover;
+                        }
+
+                        @media (max-width: 768px) {
+                          .card4-1{
+                            height: 60vh;
+                          }
+  
+
+
+                      @media (max-width: 768px) {
+                        .text-titlec4-1, .text-title4-2, .text-title4-3{
+                        font-size: 16px;
+                        }
+
+                    @media (max-width: 768px) {
+                      .card4-2{
+                        grid-column-start: 2;
+                        grid-row-start: 4;
+                      }
+                      
+                      
+
+                      @media (max-width: 768px) {
+                        .card4-2-image{
+                          background-image: url('../IMG/printportfolioII.png');
+                          background-repeat: no-repeat;
+                          background-size: cover;
+                        }
+
+               
+                      @media (max-width: 768px) {
+                        .card4-3{
+                          grid-column-start: 2;
+                          grid-row-start: 6;
+                        }
+
+                        @media (max-width: 768px) {
+                          .card4-3-image{
+                            background-image: url('../IMG/printplovooo.png');
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                          }
+
+                          @media (max-width: 768px) {
+                            .container5{
+                              height: 150vh;
+                              grid-template-columns:2.5% 95% 2.5% ;
+                              grid-template-rows:  5% 2.5% 12.5% 3% 12.5% 3% 12.5% 3% 46%;
+                            }
+
+                            @media (max-width: 768px) {
+                              .titulocontainer5{
+                                grid-row-start: 1;
+                                grid-column-start: 2;
+                                align-self: center;
+                                justify-self: center;
+                              }
+
+                              @media (max-width: 768px) {
+                                .conteudo1container5{
+                                  grid-row-start: 3
+                                }
+        
+                                @media (max-width: 768px) {
+                                  .conteudo2container5{
+                                    grid-row-start: 5;
+                                  }
+
+                                  @media (max-width: 768px) {
+                                    .conteudo3container5{
+                                      grid-row-start: 7;
+                                    }
+
+                                    @media (max-width: 768px) {
+                                      .container5 p{
+                                        grid-row-start: 9;
+                                        grid-column-start: 2
+                                      }
+
+                                      @media (max-width: 768px) {
+                                        .espaco{
+                                         height: 0;
+                                        }
+
+                                        @media (max-width: 768px) {
+                                          .entrarcontato{ font-size: 12px;
+                                            align-self: center
+                                          }
+
+                                        
+                
+              
+            
+          
+    
+  
+
   @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
