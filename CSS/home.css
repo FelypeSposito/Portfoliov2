@@ -217,9 +217,8 @@ color: #000000;}
 }
 
 .titulocontainer1{
-    grid-row-start: 2;
+    grid-row-start: 3;
     grid-column-start: 4;
-    align-self: end;
     justify-self: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     letter-spacing: 3px
@@ -256,6 +255,7 @@ color: #000000;}
     grid-row-start: 2;
     align-self: center;
     justify-self: center;
+    letter-spacing: 3px
 }
 
 .conteudocontainer2{
@@ -312,6 +312,7 @@ color: #000000;}
     grid-column-start: 4;
     align-self: center;
     justify-self: center;
+    letter-spacing: 3px
 }
 
 .container4{
@@ -348,7 +349,7 @@ color: #000000;}
     position: absolute;
     gap: .5em;
     flex-direction: column;
-    background-color: #f5f5f5;
+    background-image: linear-gradient( white, #f5f5f5, rgb(214, 214, 214));
     color: #212121;
     height: 70%;
     bottom: 0;
@@ -402,7 +403,7 @@ color: #000000;}
     position: absolute;
     gap: .5em;
     flex-direction: column;
-    background-color: #f5f5f5;
+    background-image: linear-gradient( white, #f5f5f5, rgb(214, 214, 214));
     color: #212121;
     height: 70%;
     bottom: 0;
@@ -455,7 +456,7 @@ color: #000000;}
     position: absolute;
     gap: .5em;
     flex-direction: column;
-    background-color: #f5f5f5;
+    background-image: linear-gradient( white, #f5f5f5, rgb(214, 214, 214));
     color: #212121;
     height: 70%;
     bottom: 0;
@@ -493,6 +494,7 @@ color: #000000;}
     grid-column-start: 3;
     align-self: flex-end;
     justify-self: center;
+    letter-spacing: 3px
   }
 
   .container5 p{
@@ -504,41 +506,82 @@ color: #000000;}
     grid-row: 4;
     border: 1px solid;
     border-radius: 17px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  transition: all ease-in-out 0.5s;
+    
   }
+
+  .conteudo1container5:hover{
+    background-color: #fdfdfd;
+    box-shadow: rgba(0, 0, 0, 0.09) -1px 2px 1px, rgba(0, 0, 0, 0.09) -4px 4px 2px,
+      rgba(0, 0, 0, 0.09) -8px 8px 4px, rgba(0, 0, 0, 0.09) -16px 16px 8px,
+      rgba(0, 0, 0, 0.09) -32px 32px 16px, rgba(0, 0, 0, 0.09) -64px 64px 32px;
+      transition: all ease-in-out 0.5s;
+      ;
+}
 
   .conteudo1container5 img{
     height: 100%;
     width: 100%;
     border: 1px solid;
-    border-radius: 17px;
+    border-radius: 16px;
   }
 
-  .conteudo2container5{
-    grid-column-start: 2;
-    grid-row-start: 8;
-    border: 1px solid;
-    border-radius: 17px;
-  }
+ 
+
+  
 
   .conteudo3container5{
     grid-column-start: 2;
     grid-row-start: 6;
     border: 1px solid;
-    border-radius: 17px;
+    border-radius: 16px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  transition: all ease-in-out 0.5s;
   }
+
+  .conteudo3container5:hover{
+    background-color: #fdfdfd;
+    box-shadow: rgba(0, 0, 0, 0.09) -1px 2px 1px, rgba(0, 0, 0, 0.09) -4px 4px 2px,
+      rgba(0, 0, 0, 0.09) -8px 8px 4px, rgba(0, 0, 0, 0.09) -16px 16px 8px,
+      rgba(0, 0, 0, 0.09) -32px 32px 16px, rgba(0, 0, 0, 0.09) -64px 64px 32px;
+      transition: all ease-in-out 0.5s;
+      ;
+}
 
   .conteudo3container5 img{
     height: 100%;
     width: 100%;
     border: 1px solid;
     border-radius: 17px;
+  } 
+  
+  .conteudo2container5{
+    grid-column-start: 2;
+    grid-row-start: 8;
+    border: 1px solid;
+    border-radius: 17px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  transition: all ease-in-out 0.5s;
   }
+
+  .conteudo2container5:hover{
+    background-color: #fdfdfd;
+    box-shadow: rgba(0, 0, 0, 0.09) -1px 2px 1px, rgba(0, 0, 0, 0.09) -4px 4px 2px,
+      rgba(0, 0, 0, 0.09) -8px 8px 4px, rgba(0, 0, 0, 0.09) -16px 16px 8px,
+      rgba(0, 0, 0, 0.09) -32px 32px 16px, rgba(0, 0, 0, 0.09) -64px 64px 32px;
+      transition: all ease-in-out 0.5s;
+      ;
+}
 
   .conteudo2container5 img{
     height: 100%;
     width: 100%;
     border: 1px solid;
-    border-radius: 17px;
+    border-radius: 16px;
   }
 
 .container5 p {
