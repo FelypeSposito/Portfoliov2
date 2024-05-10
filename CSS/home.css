@@ -16,6 +16,7 @@ color: #000000;}
 }
 
 
+
 .cta1 {
     border: none;
     background: none;
@@ -107,7 +108,7 @@ color: #000000;}
   .cta3 span {
     padding-bottom: 7px;
     letter-spacing: 4px;
-    font-size: 14px;
+    font-size: 12px;
     padding-right: 15px;
     text-transform: uppercase;
   }
@@ -765,6 +766,7 @@ color: #000000;}
         @media (max-width: 768px) {
           .conteudocontainer2{
             grid-row-start: 3;
+            font-size: 14px;
           }
         }
 
@@ -911,7 +913,8 @@ color: #000000;}
                                     @media (max-width: 768px) {
                                       .container5 p{
                                         grid-row-start: 9;
-                                        grid-column-start: 2
+                                        grid-column-start: 2;
+                                        font-size: 14px;
                                       }
 
                                       @media (max-width: 768px) {
@@ -921,7 +924,13 @@ color: #000000;}
 
                                         @media (max-width: 768px) {
                                           .entrarcontato{ font-size: 12px;
-                                            align-self: center
+                                            align-self: cente
+                                          }
+
+                                          @media (max-width: 768px) {
+                                            .header span a{
+                                              font-size: 10px
+                                            }
                                           }
 
                                         
